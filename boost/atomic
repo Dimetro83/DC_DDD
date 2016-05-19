@@ -1,0 +1,11 @@
+/* Alternative implementation of <atomic> from Boost.Atomic
+ * <http://www.chaoticmind.net/~hcb/projects/boost.atomic/>. */
+
+#include <boost/atomic.hpp>
+
+namespace std {
+using boost::atomic;
+using boost::atomic_flag;
+}
+
+// vim: set filetype=cpp :
